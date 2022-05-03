@@ -1,0 +1,93 @@
+body{
+    font-style: normal;
+    font-family: serif;
+    font-size: 1em;
+    line-height: 150%;
+    color: darkblue;
+    max-width: 90%;
+    margin: 10px auto;
+    background: -webkit-linear-gradient(7deg, rgb(151, 183, 211), rgb(20, 90, 56));
+    background: linear-gradient(7deg, rgb(151, 183, 211), rgb(20, 90, 56));
+}
+.date{
+    background-color: #61d959;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 20%;
+    border-radius: 10%;
+}
+h1{
+    font-size: 250%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+    color: black;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
+}
+.image{
+    display: block;
+    margin: 10px auto;
+    border-radius: 8%;
+    width: 50%;
+}
+.quotation{
+    width: 50%;
+    margin: 10px auto;
+    font-size: 160%;
+    font-style: italic;
+    background-color: rgb(187, 187, 187);
+    border-left: 3px solid black;
+    padding: 80px 30px;
+}
+a{
+    font-size: 125%;
+}
+a:hover{
+    background-color: green;
+    color:yellow;
+}
+a:visited{
+    color: purple;
+}
+.quote{
+    font-style: italic;
+    width: 50%;
+    display: block;
+    margin: auto ;
+    background-color: rgb(187, 187, 187);
+    padding-left: 30px;
+    font-size: 120%;
+}
+.villagers{
+    border-left: 3px solid red;
+}
+.farmer{
+    border-left:3px solid black;
+}
+.story{
+    text-align: center;
+}
+.table{
+    border: 1px solid;
+}
+ul{
+    list-style: inside;
+    list-style-type:"\1F449";
+    border: 3px solid white;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 240px;
+    text-align: justify;
+}
+li{
+    padding: 2px;
+}
+.preamble{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
