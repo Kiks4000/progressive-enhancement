@@ -3,7 +3,7 @@ body{
     font-family: serif;
     font-size: 1em;
     line-height: 150%;
-    color: darkblue;
+    color:beige;
     max-width: 90%;
     margin: 10px auto;
     background: -webkit-linear-gradient(7deg, rgb(151, 183, 211), rgb(20, 90, 56));
@@ -17,6 +17,7 @@ body{
     border: 3px solid white;
     width: 20%;
     border-radius: 10%;
+    color: black;
 }
 h1{
     font-size: 250%;
@@ -26,11 +27,15 @@ h1{
     color: black;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18
 }
-.image{
+img{
     display: block;
     margin: 10px auto;
+    border: 5px transparent beige;
     border-radius: 8%;
     width: 50%;
+}
+img:hover{
+    outline: 4px solid beige;
 }
 .quotation{
     width: 50%;
@@ -42,11 +47,12 @@ h1{
     padding: 80px 30px;
 }
 a{
-    font-size: 125%;
+    font-size: 115%;
 }
 a:hover{
     background-color: green;
     color:yellow;
+    border: 1px solid black;
 }
 a:visited{
     color: purple;
@@ -55,10 +61,11 @@ a:visited{
     font-style: italic;
     width: 50%;
     display: block;
-    margin: auto ;
+    margin: auto 50px ;
     background-color: rgb(187, 187, 187);
     padding-left: 30px;
     font-size: 120%;
+    color: black;
 }
 .villagers{
     border-left: 3px solid red;
@@ -67,10 +74,36 @@ a:visited{
     border-left:3px solid black;
 }
 .story{
+    text-align: justify;
+    display: block;
+    margin: auto;
+    border: 3px solid beige;
+    border-radius: 1%;
+    padding: 15px;
+    width: 50%;
+}
+table{
+    table-layout: fixed;
+    width: 50%;
+    border: 2px solid beige;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    color: black;
+}
+td, tr{
+    border: 2px solid beige;
+    width: 50%;
     text-align: center;
 }
-.table{
-    border: 1px solid;
+tr:nth-child(even){
+    background: beige;
+}
+tr:nth-child(odd){
+    background: rgba(134, 200, 134, 0.564);
+}
+thead.td:nth-child(){
+    background: rgb(155, 174, 155 0.2);
 }
 ul{
     list-style: inside;
@@ -80,7 +113,7 @@ ul{
     display: block;
     margin: auto;
     padding: 10px;
-    width: 240px;
+    width: 20%;
     text-align: justify;
 }
 li{
@@ -90,4 +123,16 @@ li{
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+}
+hr{
+    border: 5px solid green;
+    border-radius: 5px;
+    width: 66%;
+    margin: 20px auto;
+}
+.good{
+    color: green;
+}
+.bad{
+    color: red;
 }
