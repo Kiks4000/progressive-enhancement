@@ -1,6 +1,6 @@
 body{
     font-style: normal;
-    font-family: serif;
+    font-family: Open Sans, serif; 
     font-size: 1em;
     line-height: 150%;
     color:beige;
@@ -33,6 +33,8 @@ img{
     border: 5px transparent beige;
     border-radius: 8%;
     width: 50%;
+    display: inline-block;
+    float: left;
 }
 img:hover{
     outline: 4px solid beige;
@@ -102,8 +104,9 @@ tr:nth-child(even){
 tr:nth-child(odd){
     background: rgba(134, 200, 134, 0.564);
 }
-thead.td:nth-child(){
-    background: rgb(155, 174, 155 0.2);
+thead{
+    background: rgba(165, 42, 42, 0.553);
+    font-weight: bold;
 }
 ul{
     list-style: inside;
@@ -124,6 +127,10 @@ li{
     font-size: 20px;
     text-align: center;
 }
+.preblock{
+    width: 50%;
+    float: right;
+}
 hr{
     border: 5px solid green;
     border-radius: 5px;
@@ -132,7 +139,12 @@ hr{
 }
 .good{
     color: green;
+    font-variant: small-caps;
 }
 .bad{
     color: red;
+    font-variant: small-caps;
+}
+.first{
+    font-weight: bold;
 }
